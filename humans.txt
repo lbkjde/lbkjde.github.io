@@ -3,11 +3,12 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <Laura Kinson> -- <developer, wife> -- <@LBKinson>
+    <jacob Evans> -- <developer, husband> -- <@jacobevans>
 
 # THANKS
 
-    <name>
+    <bunnies!>
 
 # TECHNOLOGY COLOPHON
 
