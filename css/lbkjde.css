@@ -37,6 +37,7 @@ img.cover-photo {
   width: 75%;
   margin: 0 auto;
   padding-bottom: 1rem;
+  line-height: 1.75rem;
 }
 
 .photo-block {
