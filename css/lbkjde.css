@@ -41,14 +41,11 @@ img.cover-photo {
 
 .photo-block {
   width: 100%;
-  min-height: 20rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 1rem;
 }
 .photo-4x3-container {
-  height: 333px;
   width: 250px;
   overflow: hidden;
   padding: 1.5rem;
@@ -58,7 +55,6 @@ img.photo-4x3 {
   height: auto;
 }
 .photo-square-container {
-  height: 333px;
   width: 333px;
   overflow: hidden;
   padding: 1.5rem;
@@ -121,14 +117,14 @@ img.photo-square {
     font-size: 1.25rem;
   }
   .info-description {
+    width: 90%;
     font-size: 1rem;
   }
   .photo-block {
     width: 100%;
-    min-height: 20rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1rem;
+    align-items: center;
   }
 }
