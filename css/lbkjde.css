@@ -8,7 +8,17 @@ img.cover-photo {
   width: 100%;
 }
 
+@keyframes appearFromNowhere {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .home-headline {
+  animation: 2s ease-in-out 0s 1 appearFromNowhere;
   position: absolute;
   text-align: center;
   text-transform: uppercase;
@@ -24,6 +34,7 @@ img.cover-photo {
   text-align: center;
 }
 .info-title {
+  animation: 1s ease-in-out 0s 1 appearFromNowhere;
   font-size: 2rem;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
@@ -100,9 +111,15 @@ img.about-us-photo {
   cursor: pointer;
   padding-right: 1rem;
   text-decoration: none;
-  color: #667292;
+  color: #474f66;
   font-size: 1.25rem;
   text-transform: uppercase;
+}
+div.header-link {
+  color: #e0e2e9;
+}
+.header-link.active {
+  color: #a3aabd;
 }
 
 /* FOOTER */
