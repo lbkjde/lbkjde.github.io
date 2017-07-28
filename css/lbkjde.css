@@ -97,7 +97,9 @@ img.about-us-photo {
   padding: 1rem;
   margin: 0 auto;
 }
-
+.info-block.rsvp {
+  height: 100%;
+}
 
 /* HEADER */
 .header {
