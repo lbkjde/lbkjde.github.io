@@ -165,4 +165,14 @@ img.about-us-photo {
     flex-direction: column;
     height: 9rem;
   }
+  .about-us-container {
+    flex-direction: column;
+    padding-top: 0;
+  }
+  .about-us-person {
+    width: 100%;
+  }
+  .about-us-title {
+    padding-top: 2rem;
+  }
 }
