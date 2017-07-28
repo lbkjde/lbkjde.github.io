@@ -3,4 +3,8 @@ window.addEventListener( 'load', function() {
     cellAlign: 'left',
     contain: true
   });
+  new Flickity( '.carousel-2', {
+    cellAlign: 'left',
+    contain: true
+  });
 });
