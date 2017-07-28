@@ -1,4 +1,6 @@
-$('.main-carousel').flickity({
-  cellAlign: 'left',
-  contain: true
+window.addEventListener( 'load', function() {
+  new Flickity( '.carousel', {
+    cellAlign: 'left',
+    contain: true
+  });
 });
