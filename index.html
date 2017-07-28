@@ -31,8 +31,10 @@
         <link rel="stylesheet" href="css/lbkjde.css">
 
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link rel="stylesheet" href="css/vendor/flickity.css" media="screen">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="js/vendor/flickity.pkgd.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -40,23 +42,40 @@
         <![endif]-->
 
         <div class="home">
-          <img class="cover-photo" src="img/jacobandlaura/cover_1.jpg" />
+          <img class="cover-photo" src="img/jacobandlaura/home/cover_1.jpg" />
           <div class="home-headline">we're getting married!</div>
           <div class="home info">
+            <a class="rsvp" href="rsvp/index.html">
+              <div class="info-block bg-md-grey">
+                <div class="info-title rsvp">
+                  RSVP Here!
+                </div>
+              </div>
+            </a>
             <div class="info-block">
               <div class="info-title">
-                Things about us!
+                Things about us
               </div>
               <div class="info-description">
                 Cupcake ipsum dolor sit amet sesame snaps. Lemon drops marshmallow wafer. Sweet roll sugar plum tiramisu sesame snaps. Soufflé sugar plum chocolate cake. Bonbon cheesecake ice cream. Tiramisu cheesecake biscuit biscuit dessert bear claw sugar plum sesame snaps gingerbread. Donut cake topping pie wafer tootsie roll tiramisu. Gummies candy pie cupcake caramels icing cake gingerbread ice cream. Pudding cake topping cupcake lollipop toffee marzipan. Cake marzipan chupa chups cake macaroon tiramisu. Cake cotton candy sweet roll chocolate bar biscuit apple pie biscuit. Chupa chups cheesecake topping chocolate macaroon danish candy bonbon. Cupcake tiramisu jujubes gummies powder. Tart cotton candy liquorice pudding croissant dragée icing oat cake cake.
               </div>
+              <div class="info-description">
+                More about <a href="us/index.html">us</a>!
+              </div>
             </div>
 
-            <div class="photo-block bg-peach">
-              <div class="photo-4x3-container"><img class="photo-4x3" src="img/jacobandlaura/posed4_adjust.jpg" /></div>
-              <div class="photo-4x3-container"><img class="photo-4x3" src="img/jacobandlaura/posed2.JPG" /></div>
-              <div class="photo-4x3-container"><img class="photo-4x3" src="img/jacobandlaura/posed1_adjust.jpg" /></div>
-              <div class="photo-4x3-container"><img class="photo-4x3" src="img/jacobandlaura/posed3_adjust.jpg" /></div>
+            <div class="flickity-container bg-peach">
+              <div class="carousel" data-flickity='{ "cellAlign": "left", "wrapAround": true }'>
+                <div class="carousel-cell"><img class="us flickity-cell" src="img/jacobandlaura/home/flickity_portrait/portrait1.jpg" /></div>
+                <div class="carousel-cell"><img class="us flickity-cell" src="img/jacobandlaura/home/flickity_portrait/portrait2.JPG" /></div>
+                <div class="carousel-cell"><img class="us flickity-cell" src="img/jacobandlaura/home/flickity_portrait/portrait3.jpg" /></div>
+                <div class="carousel-cell"><img class="us flickity-cell" src="img/jacobandlaura/home/flickity_portrait/portrait4.jpg" /></div>
+                <div class="carousel-cell"><img class="us flickity-cell" src="img/jacobandlaura/home/flickity_portrait/portrait5.jpg" /></div>
+                <div class="carousel-cell"><img class="us flickity-cell" src="img/jacobandlaura/home/flickity_portrait/portrait6.jpg" /></div>
+                <div class="carousel-cell"><img class="us flickity-cell" src="img/jacobandlaura/home/flickity_portrait/portrait7.png" /></div>
+                <div class="carousel-cell"><img class="us flickity-cell" src="img/jacobandlaura/home/flickity_portrait/portrait8.JPG" /></div>
+                <div class="carousel-cell"><img class="us flickity-cell" src="img/jacobandlaura/home/flickity_portrait/portrait9.JPG" /></div>
+              </div>
             </div>
 
             <div class="info-block bg-dk-grey">
@@ -66,12 +85,24 @@
               <div class="info-description">
                 Cupcake ipsum dolor sit amet sesame snaps. Lemon drops marshmallow wafer. Sweet roll sugar plum tiramisu sesame snaps. Soufflé sugar plum chocolate cake. Bonbon cheesecake ice cream. Tiramisu cheesecake biscuit biscuit dessert bear claw sugar plum sesame snaps gingerbread. Donut cake topping pie wafer tootsie roll tiramisu. Gummies candy pie cupcake caramels icing cake gingerbread ice cream. Pudding cake topping cupcake lollipop toffee marzipan. Cake marzipan chupa chups cake macaroon tiramisu. Cake cotton candy sweet roll chocolate bar biscuit apple pie biscuit. Chupa chups cheesecake topping chocolate macaroon danish candy bonbon. Cupcake tiramisu jujubes gummies powder. Tart cotton candy liquorice pudding croissant dragée icing oat cake cake.
               </div>
+              <div class="info-description links">
+                <a class="location-link" href="event/la/index.html">Los Angeles</a><br>
+                <a class="location-link" href="event/nh/index.html">New Hampshire</a>
+              </div>
             </div>
 
-            <div class="photo-block">
-              <div class="photo-square-container"><img class="photo-square" src="img/jacobandlaura/home_square3.JPG" /></div>
-              <div class="photo-square-container"><img class="photo-square" src="img/jacobandlaura/home_square2.png" /></div>
-              <div class="photo-square-container"><img class="photo-square" src="img/jacobandlaura/home_square1.png" /></div>
+            <div class="flickity-container">
+              <div class="carousel" data-flickity='{ "cellAlign": "left", "wrapAround": true }'>
+                <div class="carousel-cell"><img class="us flickity-cell" src="img/jacobandlaura/home/flickity_square/square3.JPG" /></div>
+                <div class="carousel-cell"><img class="us flickity-cell" src="img/jacobandlaura/home/flickity_square/square2.png" /></div>
+                <div class="carousel-cell"><img class="us flickity-cell" src="img/jacobandlaura/home/flickity_square/square1.png" /></div>
+                <div class="carousel-cell"><img class="us flickity-cell" src="img/jacobandlaura/home/flickity_square/square4.jpg" /></div>
+                <div class="carousel-cell"><img class="us flickity-cell" src="img/jacobandlaura/home/flickity_square/square5.JPG" /></div>
+                <div class="carousel-cell"><img class="us flickity-cell" src="img/jacobandlaura/home/flickity_square/square6.png" /></div>
+                <div class="carousel-cell"><img class="us flickity-cell" src="img/jacobandlaura/home/flickity_square/square7.png" /></div>
+                <div class="carousel-cell"><img class="us flickity-cell" src="img/jacobandlaura/home/flickity_square/square8.png" /></div>
+                <div class="carousel-cell"><img class="us flickity-cell" src="img/jacobandlaura/home/flickity_square/square9.png" /></div>
+              </div>
             </div>
 
             <div class="info-block bg-lt-grey">
