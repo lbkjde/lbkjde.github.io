@@ -1,4 +1,4 @@
-if (window.$('.carousel')) {
+if (window.$('.carousel')[0]) {
   window.addEventListener( 'load', function() {
     new Flickity( '.carousel', {
       cellAlign: 'left',
@@ -6,7 +6,7 @@ if (window.$('.carousel')) {
     });
   });
 }
-if (window.$('.carousel-2')) {
+if (window.$('.carousel-2')[0]) {
   window.addEventListener( 'load', function() {
     new Flickity( '.carousel-2', {
       cellAlign: 'left',
