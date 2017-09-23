@@ -58,6 +58,38 @@ a.rsvp {
   padding-bottom: 1rem;
   line-height: 1.75rem;
 }
+.info-description.text-left {
+  text-align: left;
+  width: 55%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.info-split-left {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: 2rem auto;
+}
+.info-photo.left {
+  width: 35%;
+}
+.info-description.text-right {
+  text-align: left;
+  width: 55%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.info-split-right {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: 2rem auto;
+}
+.info-photo.right {
+  width: 25%;
+}
 .links {
   display: flex;
   height: 3.25rem;
@@ -179,6 +211,14 @@ div.header-link {
   .info-description {
     width: 90%;
     font-size: 1rem;
+  }
+  .info-split-left, .info-split-right {
+    flex-direction: column;
+  }
+  .info-description.text-left {
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
   }
   .links {
     flex-direction: column;
