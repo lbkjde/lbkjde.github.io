@@ -1,7 +1,7 @@
-.home {
+/*.home {
   max-width: 1398px;
   margin: 0 auto;
-}
+}*/
 
 img.cover-photo {
   position: relative;
@@ -63,7 +63,9 @@ a.rsvp {
   width: 55%;
   margin: 0;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .info-split-left {
   display: flex;
@@ -73,6 +75,9 @@ a.rsvp {
 }
 .info-photo.left {
   width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .info-description.text-right {
   text-align: left;
@@ -84,11 +89,26 @@ a.rsvp {
 .info-split-right {
   display: flex;
   justify-content: space-around;
-  width: 90%;
+  width: 85%;
   margin: 2rem auto;
 }
 .info-photo.right {
-  width: 25%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.info-description-inset {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+img.info-photo-inset {
+  width: 100%;
+}
+img.info-description-inset.logos {
+  width: 40%;
+  height: 100%;
 }
 .links {
   display: flex;
@@ -140,6 +160,7 @@ img.about-us-photo {
   display: flex;
   align-items: center;
   padding: 0 1.5rem;
+  overflow: scroll;
 }
 .header-link {
   cursor: pointer;
@@ -191,6 +212,13 @@ div.header-link {
   background-color: #534F49;
 }
 
+/* WIDE SCREEN */
+@media only screen and (min-width: 1250px) {
+  .info-photo-inset {
+    margin: 0.5rem auto;
+  }
+}
+
 /* TABLET */
 @media only screen and (min-width: 425px) and (max-width: 768px) {
   .home-headline {
@@ -212,13 +240,33 @@ div.header-link {
     width: 90%;
     font-size: 1rem;
   }
-  .info-split-left, .info-split-right {
+  .info-split-left,
+  .info-split-right {
     flex-direction: column;
+    margin: 1rem auto;
   }
-  .info-description.text-left {
+  .info-photo.left,
+  .info-photo.right {
+    width: 100%;
+  }
+  .info-description.text-left,
+  .info-description.text-right {
     text-align: left;
     width: 90%;
-    margin: 0 auto;
+    margin: 1rem auto 0;
+  }
+  .info-photo-inset {
+    margin: 0.5rem auto;
+  }
+  .info-description-inset {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  img.info-description-inset.logos {
+    width: 100%;
+    height: 100%;
   }
   .links {
     flex-direction: column;
