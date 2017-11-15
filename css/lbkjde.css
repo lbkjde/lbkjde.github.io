@@ -104,14 +104,17 @@ a.rsvp {
 .info-description-inset {
   width: 90%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 img.info-photo-inset {
   width: 100%;
 }
 img.info-description-inset.logos {
-  width: 40%;
+  width: 100%;
   height: 100%;
+}
+.info-description-inset-link {
+  width: 40%;
 }
 .links {
   display: flex;
