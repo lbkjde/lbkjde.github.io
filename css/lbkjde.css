@@ -126,7 +126,7 @@ a.location-link {
   color: blanchedalmond;
   font-size: 2rem;
   text-decoration: none;
-  background-color: #8d9db6;
+  background-color: #667292;
   margin: 0 1.5rem;
   padding: .5rem 1rem;
   border-radius: .5rem;
@@ -141,10 +141,10 @@ a.location-link {
 }
 .about-us-title {
   font-size: 1.5rem;
-  padding-bottom: .5rem;
 }
 .about-us-text {
   margin-top: 1.5rem;
+  font-size: 1.5rem;
 }
 .about-us-photo-container {
   width: 100%;
