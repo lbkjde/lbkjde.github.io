@@ -131,6 +131,13 @@ a.location-link {
   margin: 0 1.5rem;
   padding: .5rem 1rem;
   border-radius: .5rem;
+  border: 2px solid #534F49;
+}
+a.location-link:hover {
+  background-color: #8d9db6;
+}
+a.about-us-link {
+  color: blanchedalmond;
 }
 .about-us-container {
   display: flex;
