@@ -122,7 +122,7 @@ img.info-description-inset.logos {
   height: 3.25rem;
   justify-content: center;
 }
-a.location-link {
+a.location-link, button.location-link {
   cursor: pointer;
   color: blanchedalmond;
   font-size: 2rem;
@@ -130,7 +130,14 @@ a.location-link {
   background-color: #667292;
   margin: 0 1.5rem;
   padding: .5rem 1rem;
-  border-radius: .5rem;
+  border-radius: .25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px #534F49 solid;
+}
+a.location-link:hover {
+  background-color: #8d9db6;
 }
 .about-us-container {
   display: flex;
