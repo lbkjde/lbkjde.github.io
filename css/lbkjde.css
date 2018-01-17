@@ -3,6 +3,11 @@
   margin: 0 auto;
 }*/
 
+body, div{
+  font-family: 'Assistant', sans-serif;
+  
+}
+
 img.cover-photo {
   position: relative;
   width: 100%;
@@ -26,7 +31,8 @@ img.cover-photo {
   left: 0;
   width: 100%;
   font-size: 4rem;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 600;
 }
 
 .info-block {
@@ -36,7 +42,7 @@ img.cover-photo {
 .info-title {
   animation: 1s ease-in-out 0s 1 appearFromNowhere;
   font-size: 2rem;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Assistant', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   padding: 1rem 0;
@@ -52,7 +58,7 @@ a.rsvp {
 }
 .info-description {
   font-size: 1.25rem;
-  font-family: sans-serif;
+/*  font-family: 'AAssistant',sans-serif;*/
   width: 75%;
   margin: 0 auto;
   padding-bottom: 1rem;
