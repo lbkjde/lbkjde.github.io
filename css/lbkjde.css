@@ -241,6 +241,14 @@ div.header-link {
   }
 }
 
+/* SPECIAL THING FOR PLACE BUTTONS */
+@media only screen and (max-width: 768px) {
+  .links {
+    flex-direction: column;
+    height: 9rem;
+  }
+}
+
 /* MOBILE */
 @media only screen and (max-width: 425px) {
   .home-headline {
