@@ -5,4 +5,8 @@ window.addEventListener( 'load', function() {
       wrapAround: true
     });
   }
+  if (!localStorage.reloadOnce) {
+    localStorage.setItem("reloadOnce", "true");
+    window.location.reload(true);
+  }
 });
